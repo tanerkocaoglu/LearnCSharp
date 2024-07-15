@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Oper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{FB553CAE-9622-414C-990E-A7CBA1F917C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{C1169B63-0E97-4EFF-A8D4-C618F6BF9C04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FB553CAE-9622-414C-990E-A7CBA1F917C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB553CAE-9622-414C-990E-A7CBA1F917C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB553CAE-9622-414C-990E-A7CBA1F917C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1169B63-0E97-4EFF-A8D4-C618F6BF9C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1169B63-0E97-4EFF-A8D4-C618F6BF9C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1169B63-0E97-4EFF-A8D4-C618F6BF9C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1169B63-0E97-4EFF-A8D4-C618F6BF9C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
