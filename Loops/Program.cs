@@ -136,6 +136,155 @@
         #endregion
         #endregion
 
+        #region while Döngüsü
+        //while döngüsünde for gibi çalışabilmek için kombinasyonu kendimiz oluşturmalıyız.
+
+        #region while iskelet
+        //int i = 0;
+        //while (i < 10)
+        //{
+        //    Console.WriteLine("-");
+        //    i++;
+        //}
+        #endregion
+
+        #region İnceleme 1
+        //while döngüsü ile ekrana 10 defa Taner yazdıran program.
+        //int i = 0;
+        //while (i < 10)
+        //{
+        //    Console.WriteLine("Taner");
+        //    i++;
+        //}
+        #endregion
+        #region İnceleme 2
+        //Klavyeden girilen sayıdan geriye doğru 0'a kadar olan sayıları ekrana yazdıran program.
+
+        //int sayi = int.Parse(Console.ReadLine());
+        //Console.Clear();
+        //while (sayi > 0)
+        //{
+
+        //    Console.WriteLine(sayi);
+        //    sayi--;
+        //}
+
+        #endregion
+        #region İnceleme 3
+        //0 ile 100 arasındaki tek sayıları toplayarak ekrana yazdıran program.
+
+        //int sayi = 0, toplam = 0;
+        //while (sayi < 100)
+        //{
+        //    if (sayi % 2 == 1)
+        //    {
+        //        toplam += sayi;
+        //    }
+        //    sayi++;
+        //}
+        //Console.WriteLine(toplam);
+
+        #endregion
+        #region İnceleme 4
+        //Klavyeden girilen sayının faktöriyelini hesaplayan program.
+
+        //int faktoriyel = 1;
+        //int sayi = int.Parse(Console.ReadLine());
+        //while (sayi > 0)
+        //{
+        //    faktoriyel *= sayi;
+        //    sayi--;
+        //}
+        //Console.WriteLine(faktoriyel);
+        #endregion
+        #region İnceleme 5
+        //O anki tarihin saniye değeri 5'in katı ise eğer tarihi ekranda gösteren uygulamayı yazınız.
+
+        //while (true)
+        //{
+        //    if (DateTime.Now.Second % 5 == 0) { Console.WriteLine(DateTime.Now); }
+        //}
+
+        #endregion
+
+        #endregion
+
+        #region do-while Döngüsü
+        //do while şart sağlanmasa bile döngüyü birkez çalıştırır.
+
+        //while (false)
+        //{
+        //    Console.WriteLine("Taner");
+        //}
+        //do
+        //{
+        //    Console.WriteLine("Taner");
+        //} while (false);
+
+        #endregion
+
+        #region Sonsuz Döngüler
+
+        #region for
+        //bool dongu = true;
+        //for (; dongu;)
+        //{
+        //    if (true)
+        //    {
+        //        dongu = !dongu;
+        //    }
+        //}
+
+        #endregion
+        #region while
+        //bool durum = false;
+        //while (!durum)
+        //{
+        //    if (true)
+        //    {
+        //        durum = !durum;
+        //    }
+        //}
+
+        #endregion
+        #region do while
+        //bool durum = true;
+        //do
+        //{
+        //    if (true)
+        //    {
+        //        durum = !durum;
+        //    }
+
+        //} while (durum);
+        #endregion
+
+
+        #endregion
+
+        #region İç içe Döngüler
+
+        #region for
+
+        //for (int i = 0; i < 10; i++)
+        //{
+        //    for (int j = 0; j < 5; j++)
+        //    {
+        //        for (int k = 0; k < 3; k++)
+        //        {
+        //            int p = 0;
+        //            while (p < 4)
+        //            {
+        //                p++;
+        //            }
+        //        }
+        //    }
+        //}
+
+        #endregion
+
+        #endregion
+
 
     }
 }
